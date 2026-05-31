@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    background:#250f0f;
+    color:white;
+    line-height:1.6;
+    
+}
+
+
+
+header{
+    height:300px;
+
+    background-color:#160808;
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+
+    border-bottom:2px solid #4a2424;
+
+}
+
+header h1{
+    font-size:58px;
+    letter-spacing:4px;
+    margin-bottom:10px;
+    text-shadow:0 0 20px #ff4e4e;
+}
+
+header p{
+    font-size:20px;
+    color:#ff7c7c;
+}
+
+
+
+nav{
+    background:#2e1212;
+    padding:15px;
+    text-align:center;
+    top:0;
+    border-bottom:1px solid #4a2222;
+    margin-top:40px;
+    border-radius: 30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ff6e6e;
+}
+
+
+main{
+    padding:60px 10%;
+}
+
+.teg_a {
+    color: #906b6b; 
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+.teg_a:hover {
+    color: #5a3f3f; 
+}
+
+
+
+.bio{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    background:#351818;
+    padding:35px;
+    border-radius:14px;
+}
+
+.bio-text{
+    width:60%;
+}
+
+.bio-text h2{
+    color:#ff6e6e;
+    margin-bottom:20px;
+    font-size:34px;
+}
+
+.bio-text p{
+    margin-bottom:15px;
+    color:#d3dcef;
+}
+
+.bio-image{
+    width:35%;
+}
+
+.bio-image img{
+    width:100%;
+    border-radius:12px;
+    border:2px solid #683131;
+}
+
+
+
+.card{
+    background:#351818;
+    padding:25px;
+    border-radius:14px;
+    margin-top:30px;
+}
+
+h2{
+    color:#ff6e6e;
+    margin-bottom:20px;
+}
+
+footer{
+    background:#271010;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+
+    color:#d99f9f;
+}
+.bio:hover,.metez:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 25px rgba(255, 78, 78, 0.25);
+}
+.bio,.metez{
+    transition: 0.3s;
+}
+.metez{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+
+    background:#351818;
+    padding:35px;
+    border-radius:14px;
+
+    margin-top:40px;
+}
+.metez-image img{
+    width:100%;
+    border-radius:12px;
+    border:2px solid #683131;
+}
+
+
+
+.metez-text h2{
+    color:#ff6e6e;
+    margin-bottom:20px;
+    font-size:34px;
+}
+
+.metez-text p{
+    margin-bottom:15px;
+    color:#efd3d3;
+}
